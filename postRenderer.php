@@ -1,6 +1,6 @@
 <?php
-    require_once __DIR__ .'/Parsedown.php';
-    require_once __DIR__ .'/ParsedownExtra.php';
+    require_once __DIR__ .'/lib/Parsedown.php';
+    require_once __DIR__ .'/lib/ParsedownExtra.php';
     require_once __DIR__ .'/settings.php';
 
     $Parsedown = new ParsedownExtra();
@@ -47,7 +47,7 @@
             $filePath = BLOG_POSTS_PATH . '/' . $file;
             $md = file_get_contents($filePath);
             $slug = getPostSlug($file);
-    
+
             $posts_list[] = array(
                 'title' => getPostTitle($md),
                 'slug' => $slug,
