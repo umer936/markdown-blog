@@ -1,4 +1,4 @@
-# Markdown example post
+# Markdown example
 
 This is just an example blog post.
 
@@ -28,9 +28,9 @@ Bullet list:
 
 Numbered list:
 
-  1. lather
-  2. rinse
-  3. repeat
+1. lather
+2. rinse
+3. repeat
 
 Link [example](https://www.usertrack.net).
 
